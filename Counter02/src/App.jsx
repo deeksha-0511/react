@@ -4,7 +4,9 @@ import './App.css'
 function App() {
   let [value, setValue ]= useState(0)
  const addValue = ()=> {
-    setValue (value + 1 );
+    //setValue (value + 1 );
+    setValue ((prevValue) => prevValue + 1 );
+    setValue ((prevValue) => prevValue + 1 );
 
  }
  const removeValue = ()=> {
