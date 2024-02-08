@@ -1,21 +1,19 @@
 
 import './App.css'
-import UserContextProvider from './Context/UserContextProvider'
+import UserContextProvider from './UseContext/UserContextProvide'
 import Login from './components/Login'
 import Profile from './components/Profile'
 
-
 function App() {
-
   return (
-   
-   <UserContextProvider>
-      <h1>Hello</h1>
+    <>
+    <UserContextProvider>
+      <h1>hello</h1>
       <Login/>
       <Profile/>
-   </UserContextProvider>
+    </UserContextProvider>
    
-   
+    </>
   )
 }
 
