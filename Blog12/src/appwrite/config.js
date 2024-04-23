@@ -21,7 +21,7 @@ export class Service{
                 conf.appwriteCollectionId,
                 slug,
                 {
-                    title,content,featuredImage, status, userId,
+                    title, content, featuredImage, status, userId,
                 }
             )
         } catch (error) {
